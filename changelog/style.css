@@ -15,8 +15,13 @@ body {
     padding-top: 4rem;
     font-size: 2rem;
     display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(3, auto);
     gap: 3rem;
+    justify-content: center;
+    align-items: center;
 }
+
 
 
 /*Header*/
@@ -42,7 +47,7 @@ header p {
     display: grid;
     grid-template-columns: repeat(3, auto);
     grid-template-rows: repeat(7, auto);
-    gap: 2rem;
+    gap: 1rem;
     padding-top: 4rem;
     justify-content: center;
     position: relative;
@@ -55,7 +60,6 @@ header p {
     grid-template-rows: repeat(7, 1fr);
     align-items: center; 
     row-gap: 4rem;
-    border: 1px solid black;
 }
 
 /*Date*/
@@ -92,9 +96,32 @@ header p {
     transform: translateX(-50%);
 }
 
-/* project name */
+/*Project name*/
 .grid-comment-container {
     display: grid;
     justify-content: start;
     align-items: center;
+}
+
+/*Footer*/
+footer {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+
+}
+
+.full-changelog-link {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: black;
+    padding: 0.6em;
+}
+
+.full-changelog-link a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: white
 }
