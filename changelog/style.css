@@ -15,14 +15,17 @@ body {
     padding-top: 4rem;
     font-size: 2rem;
     display: grid;
-    place-items: center;
+    gap: 3rem;
 }
 
+
+/*Header*/
 header {
     display: grid;
     grid-template-columns: minmax(autofit, 1fr);
     place-items: center;
     gap: 1rem;
+    margin-inline: 5vw;
 }
 
 header h1 {
@@ -32,3 +35,18 @@ header h1 {
 header p {
     color: var(--secondary-color)
 }
+
+
+/*Main content*/
+
+
+
+/*Date*/
+
+
+
+/*timeline*/
+
+
+
+/* project name */
